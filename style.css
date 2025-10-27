@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+form{
+    width: 100%;
+    max-width: 400px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    /* height: 100vh; */
+    text-align: center;
+}
+
+.btn{
+    padding: 10px;
+    border: 2px solid #0f0f0f;
+}
+
+
+
