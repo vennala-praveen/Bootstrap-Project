@@ -5,6 +5,10 @@
     color: black;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 html,body{
     height: 100%;
     width: 100%;
@@ -12,6 +16,7 @@ html,body{
 
 body {
   font-family: 'Segoe UI', sans-serif;
+  padding-top: 70px;
 }
 
 
@@ -52,3 +57,51 @@ form{
 
 
 
+/* Home Section */
+#home {
+  background-color: #f8f9fa;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 3rem;
+  color: #343a40;
+}
+
+#home p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+
+/* Cars Section */
+#cars {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+#cars .card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Contact Section */
+#contact {
+  background-color: #f1f1f1;
+  padding: 60px 20px;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #212529;
+}
+
+#contact form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
